@@ -15,7 +15,7 @@
   "u": 'code',             #field that contains alternate stratigraphic coding (not used??)
   "r1": 'rocktype1',           #field that contains  extra lithology information
   "r2": 'rocktype2',           #field that contains even more lithology information
-  "sill": 'sill',              #text to search for in field defined by ds code to show that this is a sill
+  "sill": 'is a sill',              #text to search for in field defined by ds code to show that this is a sill
   "intrusive": 'granite',    #text to search for in field defined by r1 code to show that this is an intrusion
   "volcanic": 'volcanic',      #text to search for in field defined by ds code to show that this is an volv=canic (not intrusion)
 #mineral deposits
