@@ -1,13 +1,13 @@
 {
   "structure" : {
     "orientation_type": "strike",
-    "dipdir_column": "strike",
+    "dipdir_column": "azimuth2",
     "dip_column": "dip",
     "description_column": "feature",
     "bedding_text": "Bed",
     "overturned_column": "structypei",
     "overturned_text": "BEOI",
-    "objectid_column": "geopnt_id",
+    "objectid_column": "geopnt_id"
   },
   "geology" : {
     "unitname_column": "unitname",
@@ -23,7 +23,7 @@
     "intrusive_text": "intrusive",
     "volcanic_text": "volcanic",
     "objectid_column": "objectid",
-    "ignore_codes": ["cover"],
+    "ignore_codes": ["cover"]
   },
   "fault" : {
     "structtype_column": "feature",
@@ -36,7 +36,7 @@
     "dipestimate_column": "dip_est",
     "dipestimate_text": "gentle,moderate,steep",
     "name_column": "name",
-    "objectid_column": "objectid",
+    "objectid_column": "objectid"
   },
   "fold" : {
     "structtype_column": "feature",
@@ -44,6 +44,6 @@
     "description_column": "type",
     "synform_text": "syncline",
     "foldname_column": "name",
-    "objectid_column": "objectid",
+    "objectid_column": "objectid"
   }
 }
